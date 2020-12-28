@@ -1,0 +1,15 @@
+{
+  "name": "ehceynbook",
+  "version": "1.0.0",
+  "description": "My book list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "author": "Chimeruzee",
+  "license": "ISC"
+}
