@@ -59,13 +59,16 @@ console.log(books);
         container.insertBefore(div,form);
 
         // Vanish in 3sec
+         const disabled=document.querySelector('input[type=submit]');
+        disabled.setAttribute('disabled', 'disabled');
+
         setTimeout(() => {
-            document.querySelector('.alert').remove()
+            document.querySelector('.alert').remove();
         }, 3000);
 
-        document.querySelector('input[type=submit]').className='disabled';
+       
         setTimeout(() => {
-            document.querySelector('disabled').remove();
+            document.querySelector('input[type=submit]').getAttribute('disabled').remove();
         }, 3000);
     }
 }
